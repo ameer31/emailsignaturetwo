@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Algorithm Match</title>
+    <style>
+        @font-face {
+            font-family: "Gotham-Medium";
+            src: url("./assets/fonts/Gotham-Medium.ttf");
+        }
+
+        @font-face {
+            font-family: "Gotham-Bold";
+            src: url("./assets/fonts/Gotham-Bold.ttf");
+        }
+
+        body {
+            font-family: "Gotham-Medium";
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+
+        .header {
+            padding: 20px;
+            /* background-color: #fafafa; */
+            background-color: #323e48;
+            text-align: center;
+            color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header img {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        /* .header h1 {
+            font-size: 18px;
+            margin: 0;
+        } */
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h1 {
+            font-family: "Gotham-Bold";
+            font-size: 32px;
+            color: #333;
+            margin: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fafafa;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h2 {
+            font-size: 16px;
+            color: #c40d3c;
+            margin: 0 0 10px 0;
+            text-align: left;
+        }
+        
+
+        .flex-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box.large {
+            flex: 1;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .box.large h2 {
+            text-align: center !important;
+        }
+
+        .box.large td {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px 0px; 
+        }
+
+        th {
+            padding: 0px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        td {
+            font-family: "Gotham-Medium";
+            font-size: 14px;
+            color: #555;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .btn a {
+            font-family: "Gotham-Medium";
+            display: inline-block;
+            background-color: #c40d3c;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-decoration: none;
+            border: 1px solid #c40d3c;
+            text-align: center;
+            outline: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+
+        }
+
+        .btn a:hover {
+            background-color: #a30e2e;
+        }
+
+        .footer {
+            /* background-color: #fafafa; */
+            background-color: #323e48;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            font-family: "Gotham-Medium";
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #c40d3c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./assets/images/Logowhite.png" alt="Company Logo">
+        </div>
+        <div class="content">
+            <h1>AI TRADE ALERTS</h1>
+            <div class="btn">
+                <a href="./index.html">Another Record Drilling Result From The First Drilling Program</a>
+            </div>
+
+            <div class="box">
+                <h2>COMPANY DETAILS</h2>
+                <table>
+                    <tr>
+                        <th>ASX Code</th>
+                        <td>MTG</td>
+                    </tr>
+                    <tr>
+                        <th>COMPANY NAME</th>
+                        <td>MOUNT REGAL RESOURCE</td>
+                    </tr>
+                    <tr>
+                        <th>MARKET CAP</th>
+                        <td>$12M</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>BEST DRILL RESULT</h2>
+                <table>
+                    <tr>
+                        <td>20 m @ 1.6g/t Au, 2% Cu, 1% TiO2 from 150m (DDR105)</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>DRILL PROGRAM SIZE</h2>
+                <table>
+                    <tr>
+                        <td>Exploration Drill Program</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="flex-row">
+                <div class="box large">
+                    <h2>AuEq Grade</h2>
+                    <table>
+                        <tr>
+                            <td>2.5 <sub>g/t</sub></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="box large">
+                    <h2>AuEq GxM</h2>
+                    <table>
+                        <tr>
+                            <td>220 <sub>Gxm</sub></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>PROJECT DETAILS</h2>
+                <table>
+                    <tr>
+                        <th>PROJECT NAME</th>
+                        <td>MOUNT ALEXANDER</td>
+                    </tr>
+                    <tr>
+                        <th>PROSPECT NAME</th>
+                        <td>DIANE ROSE</td>
+                    </tr>
+                    <tr>
+                        <th>PROJECT LOCATION</th>
+                        <td>WESTERN AUSTRALIA</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="box">
+                <h2>ANALYSIS</h2>
+                <table>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis autem necessitatibus
+                            modi fugiat explicabo, facilis expedita laborum repudiandae in obcaecati animi aspernatur
+                            nihil amet voluptas quo cum architecto ut.</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="btn">
+                <a href="./index.html">READ FULL ANNOUNCEMENT</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>You're receiving this announcement because our advanced AI technology screens the daily ASX
+                announcements, identifying discovery potential-rich announcements and sends them directly to your inbox.
+                This allows you to evaluate these opportunities alongside our team of experts in real time.</p>
+        </div>
+    </div>
+</body>
+
+</html>
